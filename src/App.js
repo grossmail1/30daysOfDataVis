@@ -1,23 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>30 Days of Data Visualization</h1>
+        <p>The goal of this project is to create a new data visualization everyday of September 2019. I'd love to hear your ideas for different data visualizations I could do. Please submit a PR to my <a href="https://github.com/grossmail1/30daysOfDataVis">Github</a></p>
       </header>
     </div>
   );
